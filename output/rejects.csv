@@ -1,0 +1,4 @@
+name,age,email,salary,reason
+,30,jane@example.com,60000,name_required
+Bob,200,bob@invalid,30000,age_out_of_range;email_regex_invalid
+Alice,35,alice@test.in,-10,salary_out_of_range

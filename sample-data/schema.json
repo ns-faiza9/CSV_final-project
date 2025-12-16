@@ -1,0 +1,6 @@
+[
+  { "name": "name",   "type": "string", "required": true },
+  { "name": "age",    "type": "int",    "required": true, "min": 0, "max": 100 },
+  { "name": "email",  "type": "string", "required": true },
+  { "name": "salary", "type": "double", "required": true, "min": 0 }
+]

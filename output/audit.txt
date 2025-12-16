@@ -1,0 +1,12 @@
+=== CSV VALIDATION AUDIT ===
+Timestamp: 2025-12-16T00:43:31.422839500
+File: sample-data/raw.csv
+Schema: sample-data/schema.json
+Total: 4 | Valid: 1 | Rejected: 3
+Validation Rate: 25.0%
+
+=== ERRORS BY TYPE ===
+age_out_of_range: 1
+salary_out_of_range: 1
+email_regex_invalid: 1
+name_required: 1
